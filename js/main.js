@@ -103,12 +103,10 @@ function winnerModal(who) {
   const modal = document.getElementById('modal');
 
   if (who == 'cross') {
-    document.getElementById('crossScore').textContent = Number(document.getElementById('crossScore').textContent) + 1;
     modal.querySelector('h3').textContent = 'Выиграли крестики';
     modal.querySelector('h3').classList.add('win-cross-header');
     modal.querySelector('button').classList.add('win-cross-btn');  
   } else {
-    document.getElementById('zeroScore').textContent = Number(document.getElementById('zeroScore').textContent) + 1;
     modal.querySelector('h3').textContent = 'Выиграли нолики';
     modal.querySelector('h3').classList.add('win-zero-header');
     modal.querySelector('button').classList.add('win-zero-btn');

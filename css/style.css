@@ -1,6 +1,6 @@
 :root {
-  --red: red;
-  --blue: blue;
+  --red: #B71C1C;
+  --blue: #1A237E;
 }
 
 html {
@@ -44,7 +44,7 @@ body {
 }
 
 .logo {
-  margin-right: auto;
+  margin: 0 auto;
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -213,7 +213,7 @@ body {
 .cross div {
   position: absolute;
   width: 90%;
-  height: 20px;
+  height: 30px;
   border-radius: 10px;
   background-color: var(--red);
 }
@@ -240,7 +240,7 @@ body {
   left: 50%;
   width: 80%;
   aspect-ratio: 1 / 1;
-  border: 20px solid var(--blue);
+  border: 30px solid var(--blue);
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
