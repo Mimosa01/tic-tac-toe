@@ -62,6 +62,7 @@ function choiceUserElement(state, winnerLines) {
     if (!choiceCrossBtn.classList.contains('active')) {
       choiceCrossBtn.classList.add('active');
       choiceZeroBtn.disabled = true;
+      choiceCrossBtn.disabled = true;
     }
     startApp(state, winnerLines);
   });
